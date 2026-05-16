@@ -1,0 +1,37 @@
+@ -1,22 +1,24 @@
+# dependencies
+node_modules/
+
+# production build
+# build output
+dist/
+
+# local env files
+.env
+.env.*
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# editor settings
+# macOS-specific files
+.DS_Store
+.vscode/
+.idea/
+
+# vercel
+.vercel/
+# jetbrains setting folder
+.idea/
