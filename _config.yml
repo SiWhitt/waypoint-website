@@ -1,0 +1,43 @@
+# Jekyll configuration for GitHub Pages
+title: Your Portfolio
+author:
+  name: Your Name
+  email: your.email@example.com
+description: >-
+  Welcome to my portfolio. I'm a passionate developer showcasing my projects and skills.
+
+# GitHub Pages settings
+url: "https://yourusername.github.io"
+baseurl: "/waypoint-website"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown processor
+markdown: kramdown
+
+# Theme (using minimal built-in Jekyll theme)
+# Or uncomment to use minima: theme: minima
+
+# Exclude files from build
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
