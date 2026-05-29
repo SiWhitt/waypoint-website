@@ -1,0 +1,7 @@
+title: Waypoint Website
+description: Photography and geospatial project portfolio
+baseurl: ""
+url: ""
+markdown: kramdown
+permalink: pretty
+plugins: []
